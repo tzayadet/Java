@@ -23,6 +23,10 @@ Repositorio personal de prácticas y proyectos en Java. Incluye ejercicios de pr
 - **Manejo de errores:** excepciones, validación y control de entradas.
 - **Desarrollo de aplicaciones:** ejercicios de consola y proyectos vinculados al aprendizaje de DAM.
 
+## Material de DAM
+
+La carpeta [DAM/](DAM/) conserva temarios, apuntes y ejercicios académicos. Son ejemplos independientes, no un único proyecto compilable en bloque; consulta su README antes de ejecutarlos.
+
 ## Requisitos
 
 - JDK compatible con la versión de cada ejercicio.
@@ -41,7 +45,7 @@ Si el proyecto utiliza paquetes o un sistema de construcción, sigue la estructu
 
 ## Organización y madurez
 
-El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos archivos son ejemplos aislados y otros forman parte de proyectos mayores. Revisa las dependencias y la estructura antes de ejecutarlos.
+El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos archivos son ejemplos aislados y otros forman parte de proyectos mayores. La CI compila un conjunto explícito de ejemplos independientes; el material de DAM queda separado porque contiene clases repetidas y estructuras académicas heterogéneas. Revisa las dependencias y la estructura antes de ejecutarlos.
 
 ## Tecnologías
 
