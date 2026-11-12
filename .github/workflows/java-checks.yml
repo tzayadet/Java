@@ -1,0 +1,37 @@
+name: Java example checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.java"
+      - ".github/workflows/java-checks.yml"
+  pull_request:
+    paths:
+      - "*.java"
+      - ".github/workflows/java-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Compile maintained standalone examples
+        run: |
+          mkdir -p build/java-check
+          javac -d build/java-check \
+            Main.java Heroe.java Personaje.java \
+            PiedraPapelTijera.java Vigilancia_Patron.java \
+            ArithmeticExceptionExample.java NullPointerExceptionExample.java \
+            BreakLoopExample.java TryCatchFinallyExample.java \
+            LoggingExample.java TablaMultiplicar4.java
