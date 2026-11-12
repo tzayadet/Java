@@ -1,38 +1,58 @@
-# Java · Learning & Development
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&duration=2400&pause=900&center=true&vCenter=true&width=760&color=FFA500&lines=JAVA+DEVELOPMENT;OBJECT-ORIENTED+PROGRAMMING;LEARNING+BY+BUILDING" alt="Java development header"/>
+</p>
 
-Repositorio personal de prácticas y proyectos en Java. Incluye apuntes, ejercicios de programación, ejemplos de orientación a objetos y experimentos de desarrollo.
+<p align="center">
+  <a href="https://github.com/tzayadet"><img src="https://img.shields.io/badge/GitHub-tzayadet-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Java-JDK-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Focus-Software%20Development-1565C0?style=for-the-badge" alt="Software development"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-7928CA?style=for-the-badge" alt="MIT License"/></a>
+</p>
 
-## Contenido
+# Java Projects
 
-- Fundamentos del lenguaje y sintaxis.
-- Variables, operadores, condicionales y bucles.
-- Métodos, clases y objetos.
-- Herencia, abstracción y polimorfismo.
-- Arrays y estructuras de datos.
-- Gestión de excepciones.
-- Ejercicios y pequeños proyectos de consola.
-- Material relacionado con el ciclo de Desarrollo de Aplicaciones Multiplataforma.
+Repositorio personal de prácticas y proyectos en Java. Incluye ejercicios de programación, fundamentos de orientación a objetos, estructuras de datos y experimentos de desarrollo.
 
-## Ejecución
+## Áreas de trabajo
 
-Requiere un JDK compatible con la versión de cada ejercicio.
+- **Fundamentos:** sintaxis, tipos, variables, operadores, condicionales y bucles.
+- **Programación orientada a objetos:** clases, objetos, encapsulación, herencia, abstracción y polimorfismo.
+- **Estructuras de datos y algoritmos:** arrays, colecciones, búsqueda y resolución de problemas.
+- **Manejo de errores:** excepciones, validación y control de entradas.
+- **Desarrollo de aplicaciones:** ejercicios de consola y proyectos vinculados al aprendizaje de DAM.
 
-Compilar y ejecutar una clase sencilla:
+## Requisitos
+
+- JDK compatible con la versión de cada ejercicio.
+- Un IDE como IntelliJ IDEA, Eclipse o Visual Studio Code es opcional.
+
+## Compilación y ejecución
+
+Para un ejercicio sencillo sin paquetes:
 
 ```bash
 javac Main.java
 java Main
 ```
 
-Los archivos deben respetar el nombre de la clase pública y la estructura de paquetes que utilicen.
+Si el proyecto utiliza paquetes o un sistema de construcción, sigue la estructura y las instrucciones específicas de ese proyecto. No todos los ejercicios de este repositorio utilizan Maven.
 
-## Organización
+## Organización y madurez
 
-El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos archivos son ejemplos aislados y otros forman parte de proyectos mayores; consulta el código y sus dependencias antes de ejecutarlos.
+El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos archivos son ejemplos aislados y otros forman parte de proyectos mayores. Revisa las dependencias y la estructura antes de ejecutarlos.
 
 ## Tecnologías
 
-- Java
-- JDK
+- Java y JDK
 - Programación orientada a objetos
+- Git
 - Maven en los proyectos que lo requieran
+- SQL y bases de datos en ejercicios relacionados
+
+## Historial visual
+
+El archivo [Readme.md](Readme.md) conserva una versión visual anterior del repositorio. El presente `README.md` es la documentación técnica principal.
+
+## Licencia
+
+MIT. Consulta [LICENSE](LICENSE).
