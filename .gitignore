@@ -1,0 +1,16 @@
+# Compiled Java artifacts
+*.class
+*.jar
+*.war
+target/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
