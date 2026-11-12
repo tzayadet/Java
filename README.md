@@ -49,10 +49,6 @@ El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos a
 - Maven en los proyectos que lo requieran
 - SQL y bases de datos en ejercicios relacionados
 
-## Historial visual
-
-El archivo [Readme.md](Readme.md) conserva una versión visual anterior del repositorio. El presente `README.md` es la documentación técnica principal.
-
-## Licencia
+## ## Licencia
 
 MIT. Consulta [LICENSE](LICENSE).
