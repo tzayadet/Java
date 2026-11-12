@@ -1,21 +1,26 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/DEVELOPMENT-JAVA_WORKSPACE-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="Java workspace"/>
+  <img src="https://img.shields.io/badge/OOP-DATA_STRUCTURES-101010?style=for-the-badge&logo=openjdk&logoColor=00FF41" alt="Java"/>
+</p>
+
 # Java Projects
 
-A personal collection of Java exercises and development projects. It covers programming fundamentals, object-oriented design, data structures and experiments built during software development practice.
+A collection of Java programming exercises and development work covering fundamentals, object-oriented design, data structures and selected DAM coursework.
 
 <p align="center">
-  <a href="https://github.com/tzayadet/Java"><img src="https://img.shields.io/badge/SOURCE-GITHUB-161b22?style=flat-square&logo=github" alt="Source"></a>
-  <a href="https://tzayadet.github.io/Java/"><img src="https://img.shields.io/badge/SHOWCASE-OPEN-00a86b?style=flat-square" alt="Showcase"></a>
+  <a href="https://tzayadet.github.io/Java/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
+  <a href="https://github.com/tzayadet/Java"><strong>SOURCE CODE</strong></a>
 </p>
 
 [![Java example checks](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml/badge.svg)](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml)
 
-## Areas of work
+## Areas covered
 
 - Java fundamentals: types, variables, operators, conditionals and loops.
 - Object-oriented programming: classes, objects, encapsulation, inheritance, abstraction and polymorphism.
 - Data structures and algorithms: arrays, collections, search and problem solving.
-- Error handling, validation and input processing.
-- Console applications and projects related to DAM coursework.
+- Exception handling, validation and input processing.
+- Console applications and coursework-related exercises.
 
 ## DAM material
 
@@ -35,7 +40,7 @@ javac Main.java
 java Main
 ```
 
-For projects using packages or a build system, follow their local structure and instructions. Not every exercise uses Maven.
+For projects using packages or a build system, follow their local structure. Not every exercise uses Maven.
 
 ## Project organisation and maturity
 
