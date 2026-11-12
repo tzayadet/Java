@@ -49,6 +49,6 @@ El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos a
 - Maven en los proyectos que lo requieran
 - SQL y bases de datos en ejercicios relacionados
 
-## ## Licencia
+## Licencia
 
 MIT. Consulta [LICENSE](LICENSE).
