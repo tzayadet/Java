@@ -1,66 +1,50 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&duration=2400&pause=900&center=true&vCenter=true&width=760&color=FFA500&lines=JAVA+DEVELOPMENT;OBJECT-ORIENTED+PROGRAMMING;LEARNING+BY+BUILDING" alt="Java development header"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/tzayadet"><img src="https://img.shields.io/badge/GitHub-tzayadet-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-  <img src="https://img.shields.io/badge/Java-JDK-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Focus-Software%20Development-1565C0?style=for-the-badge" alt="Software development"/>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-7928CA?style=for-the-badge" alt="MIT License"/></a>
-</p>
-
 # Java Projects
+
+A personal collection of Java exercises and development projects. It covers programming fundamentals, object-oriented design, data structures and experiments built during software development practice.
+
+<p align="center">
+  <a href="https://github.com/tzayadet/Java"><img src="https://img.shields.io/badge/SOURCE-GITHUB-161b22?style=flat-square&logo=github" alt="Source"></a>
+  <a href="https://tzayadet.github.io/Java/"><img src="https://img.shields.io/badge/SHOWCASE-OPEN-00a86b?style=flat-square" alt="Showcase"></a>
+</p>
 
 [![Java example checks](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml/badge.svg)](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml)
 
-Repositorio personal de prácticas y proyectos en Java. Incluye ejercicios de programación, fundamentos de orientación a objetos, estructuras de datos y experimentos de desarrollo.
+## Areas of work
 
-## Áreas de trabajo
+- Java fundamentals: types, variables, operators, conditionals and loops.
+- Object-oriented programming: classes, objects, encapsulation, inheritance, abstraction and polymorphism.
+- Data structures and algorithms: arrays, collections, search and problem solving.
+- Error handling, validation and input processing.
+- Console applications and projects related to DAM coursework.
 
-- **Fundamentos:** sintaxis, tipos, variables, operadores, condicionales y bucles.
-- **Programación orientada a objetos:** clases, objetos, encapsulación, herencia, abstracción y polimorfismo.
-- **Estructuras de datos y algoritmos:** arrays, colecciones, búsqueda y resolución de problemas.
-- **Manejo de errores:** excepciones, validación y control de entradas.
-- **Desarrollo de aplicaciones:** ejercicios de consola y proyectos vinculados al aprendizaje de DAM.
+## DAM material
 
-## Material de DAM
+The [DAM directory](DAM/) contains course material, notes and exercises. These are independent examples rather than one project that can be compiled as a whole. Check the relevant README before running an individual exercise.
 
-La carpeta [DAM/](DAM/) conserva temarios, apuntes y ejercicios académicos. Son ejemplos independientes, no un único proyecto compilable en bloque; consulta su README antes de ejecutarlos.
+## Requirements
 
-## Requisitos
+- A JDK compatible with the version used by each exercise.
+- An IDE such as IntelliJ IDEA, Eclipse or Visual Studio Code is optional.
 
-- JDK compatible con la versión de cada ejercicio.
-- Un IDE como IntelliJ IDEA, Eclipse o Visual Studio Code es opcional.
+## Compile and run
 
-## Compilación y ejecución
-
-Para un ejercicio sencillo sin paquetes:
+For a simple exercise without packages:
 
 ```bash
 javac Main.java
 java Main
 ```
 
-Si el proyecto utiliza paquetes o un sistema de construcción, sigue la estructura y las instrucciones específicas de ese proyecto. No todos los ejercicios de este repositorio utilizan Maven.
+For projects using packages or a build system, follow their local structure and instructions. Not every exercise uses Maven.
 
-## Organización y madurez
+## Project organisation and maturity
 
-El repositorio conserva ejercicios de distintas etapas de aprendizaje. Algunos archivos son ejemplos aislados y otros forman parte de proyectos mayores. La CI compila un conjunto explícito de ejemplos independientes; el material de DAM queda separado porque contiene clases repetidas y estructuras académicas heterogéneas. Revisa las dependencias y la estructura antes de ejecutarlos.
+The repository retains exercises from different learning stages. Some files are standalone examples; others belong to larger projects. CI compiles an explicitly selected set of independent examples. DAM coursework remains separate because it contains repeated class names and heterogeneous academic structures.
 
-## Tecnologías
+## Showcase
 
-- Java y JDK
-- Programación orientada a objetos
-- Git
-- Maven en los proyectos que lo requieran
-- SQL y bases de datos en ejercicios relacionados
+The [GitHub Pages showcase](https://tzayadet.github.io/Java/) is a curated index of selected source files. It does not execute Java in the browser.
 
-## Licencia
+## License
 
-MIT. Consulta [LICENSE](LICENSE).
-
-## Project showcase
-
-[Open the GitHub Pages showcase](https://tzayadet.github.io/Java/) · [Showcase source](docs/index.html)
-
-The page is a curated index of selected source files; it does not execute Python or Java in the browser. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**. The workflow remains skipped until that variable is enabled.
+MIT. See [LICENSE](LICENSE).
