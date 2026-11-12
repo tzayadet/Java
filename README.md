@@ -11,6 +11,8 @@
 
 # Java Projects
 
+[![Java example checks](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml/badge.svg)](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml)
+
 Repositorio personal de prácticas y proyectos en Java. Incluye ejercicios de programación, fundamentos de orientación a objetos, estructuras de datos y experimentos de desarrollo.
 
 ## Áreas de trabajo
