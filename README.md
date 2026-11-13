@@ -8,8 +8,8 @@
 A collection of Java programming exercises and development work covering fundamentals, object-oriented design, data structures and selected DAM coursework.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/Java/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
-  <a href="https://github.com/tzayadet/Java"><strong>SOURCE CODE</strong></a>
+  <a href="docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://github.com/tzayadet/Java"><strong>SOURCE CODE</strong></a> · <sub>PAGES ACTIVATION REQUIRED</sub>
 </p>
 
 [![Java example checks](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml/badge.svg)](https://github.com/tzayadet/Java/actions/workflows/java-checks.yml)
@@ -48,7 +48,7 @@ The repository retains exercises from different learning stages. Some files are 
 
 ## Showcase
 
-The [GitHub Pages showcase](https://tzayadet.github.io/Java/) is a curated index of selected source files. It does not execute Java in the browser.
+The curated showcase source is in `docs/`. GitHub Pages activation is still required; the showcase does not execute Java in the browser.
 
 ## License
 
